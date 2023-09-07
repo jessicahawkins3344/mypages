@@ -11969,9 +11969,8 @@ var calcMortgage = function(t) {
             d.prototype = {
                 init: function() {
                     var n = this;
-                    var result = document.getElementById("result");
+                    
                     r.a.init(), a.a.init(), o.a.init(), n.calculateAndDraw(), this.$calculateBtn.on("click", function() {
-                        result.show();
                         n.calculateAndDraw()
                     }), e.a.addListener("onStartDayChanged", function(t) {
                         t ? (n.doScheduleArr(), a.a.renderScheduleTable(n.scheduleArr)) : a.a.changePayoffDate(n.scheduleArr)
@@ -12039,4 +12038,13 @@ var calcMortgage = function(t) {
             }
         }.call(this, n(3))
 }]);
+
+function myFunction() {
+  var x = document.getElementById("result");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 //# sourceMappingURL=calcMortgage.min.js.map
