@@ -11970,6 +11970,7 @@ var calcMortgage = function(t) {
                 init: function() {
                     var n = this;
                     r.a.init(), a.a.init(), o.a.init(), n.calculateAndDraw(), this.$calculateBtn.on("click", function() {
+                        ('.mg-result').show();
                         n.calculateAndDraw()
                     }), e.a.addListener("onStartDayChanged", function(t) {
                         t ? (n.doScheduleArr(), a.a.renderScheduleTable(n.scheduleArr)) : a.a.changePayoffDate(n.scheduleArr)
