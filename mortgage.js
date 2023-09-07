@@ -12040,11 +12040,18 @@ var calcMortgage = function(t) {
 }]);
 
 function myFunction() {
-  var x = document.getElementById("mg-form-main");
-  if (x.classList.contains("is-show")) {
-      x.classList.remove("is-show");
+  var y = document.getElementById("mg-form-main");
+  var x = document.getElementById("result");
+  var t = document.getElementsByClassName('c-form');
+  if (t.classList.contains("is-show")) {
+      t.classList.remove("is-show");
     } else {
-      x.classList.add("is-show");
+      t.classList.add("is-show");
+    }
+    if (y.classList.contains("is-show")) {
+      y.classList.remove("is-show");
+    } else {
+      y.classList.add("is-show");
     }
 }
 //# sourceMappingURL=calcMortgage.min.js.map
