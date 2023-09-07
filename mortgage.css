@@ -3046,7 +3046,16 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .c-form {
   display: none;
 }
+.hl-app .ghl-form-wrap, .hl-app #form-builder {
+	max-width: 100%!important;
+}
 
+.hl-app .form-builder--wrap {
+    border-radius: 20px!important;
+    -webkit-box-shadow: 0 1px 70px 0 rgba(46, 46, 46, .15)!important;
+    box-shadow: 0 1px 70px 0 rgba(46, 46, 46, .15)!important;
+    padding: 40px 60px!important;
+}
 
 
 
