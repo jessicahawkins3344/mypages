@@ -1277,7 +1277,8 @@ select {
     line-height: 3.2;
     color: #fff;
     background-color: #09f;
-    text-transform: uppercase
+    text-transform: uppercase;
+    padding: 0;
 }
 
 .btn_grey {
@@ -3019,11 +3020,26 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
   opacity: 0;
   transition: all .2s ease-out;
   height: 0;
+  margin-top: 0;
 }
 #result.is-show {
   opacity: 1;
   transition: all .2s ease-out;
   height: 100%;
+  margin-top: 40px;
+}
+
+#mg-form-main {
+  opacity: 0;
+  transition: all .2s ease-out;
+  height: 0;
+  margin-top: 0;
+}
+#mg-form-main.is-show {
+  opacity: 1;
+  transition: all .2s ease-out;
+  height: 100%;
+  margin-top: 40px;
 }
 
 .mg-result__row {
