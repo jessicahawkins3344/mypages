@@ -12043,7 +12043,7 @@ function myFunction() {
   var y = document.getElementById("mg-form-main");
   var x = document.getElementById("result");
 
-"block" == document.getElementById("errror-container").style.display;
+var block == document.getElementById("errror-container").style.display;
 
 if block {
     document.getElementsByClassName('c-form')[0].style.display = 'none';
