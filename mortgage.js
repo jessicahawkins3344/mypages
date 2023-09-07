@@ -12041,10 +12041,10 @@ var calcMortgage = function(t) {
 
 function myFunction() {
   var x = document.getElementById("result");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  if (x.classList.contains("is-show")) {
+      x.classList.remove("is-show");
+    } else {
+      x.classList.add("is-show");
+    }
 }
 //# sourceMappingURL=calcMortgage.min.js.map

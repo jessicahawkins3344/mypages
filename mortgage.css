@@ -3015,6 +3015,17 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
     margin-top: 40px
 }
 
+#result {
+  opacity: 0;
+  transition: all .2s ease-out;
+  height: 0;
+}
+#result.is-show {
+  opacity: 1;
+  transition: all .2s ease-out;
+  height: 100%;
+}
+
 .mg-result__row {
     display: -webkit-box;
     display: -webkit-flex;
