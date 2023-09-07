@@ -12042,9 +12042,7 @@ var calcMortgage = function(t) {
 function myFunction() {
   var y = document.getElementById("mg-form-main");
   var x = document.getElementById("result");
-  var e = document.getElementById("error-container");
 document.getElementsByClassName('c-form')[0].style.display = 'block';
-    if 
     if (y.classList.contains("is-show")) {
       y.classList.remove("is-show");
     } else {
