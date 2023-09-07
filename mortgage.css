@@ -3049,6 +3049,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .hl-app .ghl-form-wrap, .hl-app #form-builder {
 	max-width: 100%!important;
 }
+.thank-you-message {
+	display: none;
+}
 
 .hl-app .form-builder--wrap {
     border-radius: 20px!important;
