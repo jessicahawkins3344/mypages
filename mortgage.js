@@ -12049,4 +12049,21 @@ document.getElementsByClassName('c-form')[0].style.display = 'block';
       y.classList.add("is-show");
     }
 }
+
+function myOnClickFunction() {
+    var x = document.getElementById("result");
+    var y = document.getElementById("error-container");
+    if (!y){
+    x.classList.add("is-show");
+    } else {
+     return false;
+     }
+}
+
+
+  // Get all elements with the class "myButton" and attach the function
+  const buttons = document.querySelectorAll(".button-element");
+  buttons.forEach((button) => {
+    button.onclick = myOnClickFunction;
+  });
 //# sourceMappingURL=calcMortgage.min.js.map
