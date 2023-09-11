@@ -3474,7 +3474,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 @media(max-width:500px) {
     .box_mg {
-        padding: 15px;
+        padding: 25px;
         margin-top: -400px
     }
     .btn_180,
