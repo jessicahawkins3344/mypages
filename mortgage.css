@@ -3155,6 +3155,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
     .mg-result-table__total-payment-value span {
         font-size: 2rem
     }
+    .amortization-schedule__table {
+    	font-size: .7em;
+    }
 }
 
 .terms {
