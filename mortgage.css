@@ -3447,6 +3447,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 @media(max-width:500px) {
+	.hl-app #form-builder {
+		padding-top: 0!important;
+	}
     .box_mg {
         padding: 25px;
         margin-top: -400px
