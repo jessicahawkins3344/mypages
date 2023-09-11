@@ -1218,7 +1218,7 @@ select {
 .tooltip-icon {
     width: 18px;
     height: 18px;
-    background-image: url(../assets/img/tooltip-icon.svg);
+    background-image: url(../mypages/assets/img/tooltip-icon.svg);
     cursor: default;
     display: inline-block;
     vertical-align: middle;
@@ -2510,7 +2510,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .logo {
     width: 105px;
     height: 34px;
-    background-image: url(../assets/img/Mortgage-advice-logo-22.png);
+    background-image: url(../mypages/assets/img/Mortgage-advice-logo-22.png);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
@@ -2607,7 +2607,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .mobile-nav__logo {
     width: 105px;
     height: 34px;
-    background-image: url(../assets/img/Mortgage-advice-logo-22.png);
+    background-image: url(../mypages/assets/img/Mortgage-advice-logo-22.png);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: contain;
@@ -2706,7 +2706,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .header_lg::after {
-    content: url(../assets/img/wave4.svg);
+    content: url(../mypages/assets/img/wave4.svg);
     position: absolute;
     bottom: -2%;
     left: -3%;
@@ -3964,7 +3964,7 @@ dd {
     width: 16px;
     height: 16px;
     content: '';
-    background: url(../assets/img/external-link-icon.svg);
+    background: url(../mypages/assets/img/external-link-icon.svg);
     display: inline-block;
     margin: 0 3px 0 5px
 }
