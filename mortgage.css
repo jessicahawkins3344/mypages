@@ -2490,7 +2490,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 @media(max-width:767px) {
     .box {
         -webkit-border-radius: 5px;
-        border-radius: 5px
     }
 }
 
