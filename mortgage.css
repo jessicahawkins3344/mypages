@@ -634,7 +634,7 @@
 }
 
 html {
-    font-family: roboto-regular, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     padding: 0;
     margin: 0
@@ -691,7 +691,7 @@ section {
 
 b,
 button {
-    font-family: roboto-regular, sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 ol,
@@ -876,7 +876,8 @@ select {
 
 .field {
     width: 100%;
-    font-family: roboto-bold;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 1.6rem;
     border: 0
 }
@@ -901,7 +902,7 @@ select {
 }
 
 .field_grey-light {
-    font-family: roboto-regular, sans-serif;
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #dde2e5;
     -webkit-border-radius: 3px;
     border-radius: 3px
@@ -1272,7 +1273,8 @@ select {
 .btn_blue {
     width: 100%;
     height: 50px;
-    font-family: roboto-bold, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 1.6rem;
     line-height: 3.2;
     color: #fff;
@@ -1292,7 +1294,7 @@ select {
 
 .btn_sm {
     height: 30px;
-    font-family: roboto-regular, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     line-height: 1.4;
     padding: 5px 20px
@@ -2158,8 +2160,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .datepicker th {
-    font-family: roboto-bold, sans-serif;
-    font-weight: 400
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .another-calc__content {
@@ -2319,7 +2321,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 .nav-states-mortgage a {
     color: #838c96;
-    font-family: roboto-light, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 300;
     font-size: 1.4rem;
     white-space: nowrap;
     cursor: pointer;
@@ -2718,7 +2721,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 .header-text {
     max-width: 560px;
-    font-family: roboto-light, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 300;
     font-size: 1.6rem;
     line-height: 1.5;
     color: #fff;
@@ -2898,7 +2902,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .amortization-schedule__payoff-date {
-    font-family: roboto-bold, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 2.6rem;
     text-align: right;
     margin-top: 35px
@@ -2910,7 +2915,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 .amortization-schedule thead tr {
     height: 40px;
-    font-family: roboto-bold;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 1.4rem;
     text-align: right;
     border-bottom: 1px solid #eee;
@@ -3087,12 +3093,14 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .mg-result-table__total-payment-text {
-    font-family: roboto-bold;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     text-transform: uppercase
 }
 
 .mg-result-table__total-payment-value {
-    font-family: roboto-bold;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 2.4rem
 }
 
@@ -3811,7 +3819,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .footer-menu__title {
-    font-family: roboto-bold, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 1.4rem;
     color: #fff;
     text-transform: uppercase;
@@ -3846,13 +3855,15 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 .footer-bot__copyright {
-    font-family: roboto-light, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 300;
     font-size: 1.4rem;
     color: #9ca7b2
 }
 
 .footer-link {
-    font-family: roboto-light, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 300;
     font-size: 1.4rem;
     color: #9ca7b2;
     display: block
@@ -3864,7 +3875,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 .footer-text {
     max-width: 400px;
-    font-family: roboto-light, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    weight: 300;
     font-size: 1.4rem;
     color: #9ca7b2;
     line-height: 1.5
@@ -3932,7 +3944,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 }
 
 h4 {
-    font-family: roboto-bold;
+    font-family: 'Roboto', sans-serif;
+    weight: 700;
     font-size: 1.6rem
 }
 
@@ -4753,7 +4766,7 @@ code {
 }
 
 .install-instruction__h4 {
-    font-family: roboto-regular, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.2;
